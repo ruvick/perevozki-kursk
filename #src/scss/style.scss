@@ -9,14 +9,14 @@
 //&display=swap&subset=cyrillic-ext
 @import "fonts";
 
-@font-face {
-	font-family: "Ceremonioustwo";
-	src: url("../fonts/ceremonioustwo.eot");
-	src: local("☺"), url("../fonts/ceremonioustwo.woff") format("woff"), url("../fonts/ceremonioustwo.ttf") format("truetype"),
-		url("../fonts/ceremonioustwo.svg") format("svg"), url("../fonts/ceremonioustwo.otf") format("otf");
-	font-weight: 300;
-	font-style: normal;
-}
+// @font-face {
+// 	font-family: "Ceremonioustwo";
+// 	src: url("../fonts/ceremonioustwo.eot");
+// 	src: local("☺"), url("../fonts/ceremonioustwo.woff") format("woff"), url("../fonts/ceremonioustwo.ttf") format("truetype"),
+// 		url("../fonts/ceremonioustwo.svg") format("svg"), url("../fonts/ceremonioustwo.otf") format("otf");
+// 	font-weight: 300;
+// 	font-style: normal;
+// }
 
 
 @font-face {
@@ -125,7 +125,7 @@ body {
 //<ЗАГОЛОВКИ>=================================================================================================================
 h1 {
 	font-family: 'Ceremonioustwo', sans-serif;
-	font-size: 98.32px;
+	font-size: 63px;
 	font-weight: 300;
 	line-height: 117.98 / 98.32 *100%;
 
@@ -148,9 +148,8 @@ h2 {
 
 	span {
 		font-family: 'Lato', sans-serif;
-		font-size: 70px;
-		font-weight: 300;
-		line-height: 84 / 70 *100%;
+		font-size: 20px;
+		font-weight: 500;
 		color: #1A1818;
 		margin-top: -25px;
 		display: block;
@@ -194,7 +193,7 @@ h6 {
 .title {
 	text-align: center;
 	color: #CC870B;
-	margin-bottom: 38px;
+	margin-bottom: 20px;
 }
 
 @media (max-width: 768px) {
@@ -314,8 +313,20 @@ h6 {
 	}
 
 	&__title {
-		margin-bottom: 53px;
+		font-size: 63px;
+		margin-bottom: 20px;
 	}
+}
+
+.slider-bg__subtitle {
+	color: #fff;
+	text-align: center;
+	font-size: 28px;
+	line-height: 1.2;
+}
+
+.slider-bg__link {
+	margin-top: 35px;
 }
 
 .swiper-button-block {
@@ -341,7 +352,7 @@ h6 {
 }
 
 .slider-main__slide-2 {
-	background: url('../img/sl-main-02.jpg');
+	background: url('../img/main-bg-02.png');
 }
 
 .product-sl-paggination {
@@ -358,12 +369,8 @@ h6 {
 }
 
 .about__subtitle {
+	font-size: 18px;
 	text-align: center;
-	margin-bottom: 25px;
-
-	&:last-child {
-		margin-bottom: 0;
-	}
 }
 
 //========================================================================================================================================================
@@ -377,6 +384,7 @@ h6 {
 
 .objects__inner {
 	display: flex;
+	flex-wrap: wrap;
 	margin: 0 -5px;
 	margin-bottom: 43px;
 
@@ -389,6 +397,7 @@ h6 {
 	display: flex;
 	flex: 0 1 33.333%;
 	padding: 0 5px;
+	padding-bottom: 10px;
 }
 
 .card-objects {
@@ -400,7 +409,7 @@ h6 {
 
 .card-objects__img {
 	position: relative;
-	max-height: 300px;
+	height: 300px;
 	overflow: hidden;
 }
 
@@ -410,7 +419,7 @@ h6 {
 
 .card-objects__descp {
 	flex: 1 1 auto;
-	padding: 6.5px;
+	padding: 20px 13px;
 	background: #888E91;
 	transition: all 1.5s;
 }
@@ -422,6 +431,7 @@ h6 {
 
 .card-objects__descp-title {
 	font-family: 'Ceremonioustwo', sans-serif;
+	font-size: 22px;
 	text-align: center;
 	color: #FFDDA8;
 
@@ -477,13 +487,16 @@ h6 {
 
 .services__inner {
 	display: flex;
-	margin: 0 -18px;
+	flex-wrap: wrap;
+	margin: 0 -10px;
 }
 
 .services__column {
 	display: flex;
 	flex: 0 1 33.333%;
-	padding: 0 18px;
+	// flex: 0 1 50%;
+	padding: 0 10px;
+	padding-bottom: 55px;
 }
 
 .services__card {
@@ -491,12 +504,14 @@ h6 {
 	align-items: center;
 	flex: 0 1 100%;
 	flex-direction: column;
+	flex-direction: column-reverse;
 	overflow: hidden;
 }
 
 .services__card-descp {
 	padding: 0 35px;
 	text-align: center;
+	margin-top: 15px;
 	margin-bottom: 28px;
 }
 
@@ -515,8 +530,9 @@ h6 {
 	position: relative;
 	// flex: 0 1 449px;
 	max-width: 449px;
+	max-width: 100%;
 	width: 100%;
-	max-height: 238px;
+	height: 345px;
 	overflow: hidden;
 }
 
@@ -536,6 +552,11 @@ h6 {
 
 .services__card-slider-slide {
 	width: 100% !important;
+	height: 100% !important;
+}
+
+.services__card-slider-inner {
+	height: 100%;
 }
 
 //========================================================================================================================================================

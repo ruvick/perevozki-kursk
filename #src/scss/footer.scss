@@ -3,13 +3,17 @@
 .footer__top {
   padding: 32px 0 50px 0;
   background: #6D6F72;
+  background: #1f1f1f;
 }
 
 .footer__top-inner {
   justify-content: space-between;
 }
 
-.footer__logo {}
+.footer__logo {
+  flex: 0 0 200px;
+  height: 100px;
+}
 
 .footer__top-menu {
   flex: 0 1 915px;
