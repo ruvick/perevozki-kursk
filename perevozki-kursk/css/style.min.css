@@ -3979,6 +3979,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   z-index: 5;
 }
 .consultation__title span {
+  font-size: 26px;
   color: #fff;
 }
 
