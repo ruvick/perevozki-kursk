@@ -21,7 +21,7 @@
 }
 
 .footer__top-menu-column {
-  flex: 0 1 33.333%;
+  // flex: 0 1 33.333%;
 }
 
 .footer__top-menu-title {
@@ -34,17 +34,22 @@
 .footer__top-menu-list-item {}
 
 .footer__top-menu-list-item-link {
+  font-size: 16px;
   color: #fff;
 }
 
 .footer__top-menu-phone {
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 3px;
+}
+
+.footer__top-menu-soc-block {
+  margin-top: 13px;
 }
 
 .footer__top-menu-soc-text {
   color: #fff;
-  margin-top: 12px;
+  margin-top: 5px;
 }
 
 .footer__bottom {

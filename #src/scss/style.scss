@@ -749,34 +749,32 @@ h6 {
 .consultation__title {
 	position: relative;
 	z-index: 5;
+
+	span {
+		color: #fff;
+	}
 }
 
 .consultation__form {
 	position: relative;
 	z-index: 5;
-	display: flex;
-	justify-content: space-around;
 	padding: 0 85px;
 }
 
-.consultation__form-column {
-	flex: 0 1 43.5%;
+.consultation__form-inner {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
-.consultation__form-input {}
-
-.consultation__form-checkbox {
-	display: block;
-	margin-top: 26px;
+.consultation__form-input {
+	flex: 0 1 48%;
+	margin-bottom: 15px;
 }
 
-.checkbox {}
-
-.checkbox__input {}
-
-.consultation__form-checkbox .checkbox__text {
-	font-size: 14px;
-	color: #1A1818;
+.consultation__form-textarea {
+	flex: 0 1 48%;
+	height: 100px;
 }
 
 .consultation__form-btn {
@@ -784,7 +782,7 @@ h6 {
 }
 
 .consultation__nuar_blk {
-	background-color: #00000085;
+	background-color: #00000090;
 }
 
 //========================================================================================================================================================
