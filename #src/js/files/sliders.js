@@ -126,10 +126,10 @@ let sliderBg = new Swiper('.slider-bg', {
 // Сюда пишем класс нашего слайдера и меняем переменную
 let servicesSl = new Swiper('.servicesSl', {
 	// effect: 'fade',
-	// autoplay: {
-	// 	delay: 3000,
-	// 	disableOnInteraction: false,
-	// },
+	autoplay: {
+		delay: 3000,
+		disableOnInteraction: false,
+	},
 
 	observer: true,
 	observeParents: true,
