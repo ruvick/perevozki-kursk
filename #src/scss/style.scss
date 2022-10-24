@@ -207,7 +207,7 @@ h6 {
 }
 
 .section {
-	padding: 35px 0 53px 0;
+	padding: 65px 0;
 }
 
 //<ЗАГОЛОВКИ>=================================================================================================================
@@ -283,9 +283,11 @@ h6 {
 }
 
 //===================================================================================================================================
+.slider-main {}
 
 .slider-bg-wrap {
 	position: relative;
+
 }
 
 .slider-bg {
@@ -303,8 +305,12 @@ h6 {
 
 	&__slide {
 		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 		width: 100%;
-		height: 828px;
+		// height: 828px;
+		min-height: 100vh;
 		padding: 160px 0 130px 0;
 		background-repeat: no-repeat !important;
 		background-size: cover !important;
@@ -450,7 +456,7 @@ h6 {
 .banner {
 	position: relative;
 	padding: 121px 25px;
-	background-position: 0 0;
+	background-position: 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-image: url('../img/banner-01.jpg');
@@ -476,9 +482,16 @@ h6 {
 
 //========================================================================================================================================================
 
-.services {}
+.services {
+	padding-bottom: 0;
+}
 
 .services__title {}
+
+.services__subtitle {
+	font-size: 18px;
+	margin-bottom: 20px;
+}
 
 .services__wrap {
 	padding: 45px 0;
@@ -504,7 +517,7 @@ h6 {
 	align-items: center;
 	flex: 0 1 100%;
 	flex-direction: column;
-	flex-direction: column-reverse;
+	// flex-direction: column-reverse;
 	overflow: hidden;
 }
 
@@ -539,7 +552,7 @@ h6 {
 .services__card-slider-slide {}
 
 .services__card-btn {
-	margin-top: 33px;
+	// margin-top: 33px;
 }
 
 .servicesSl-swiper-paggination {
@@ -771,7 +784,7 @@ h6 {
 }
 
 .consultation__nuar_blk {
-	background-color: #00000035;
+	background-color: #00000085;
 }
 
 //========================================================================================================================================================
@@ -898,7 +911,52 @@ h6 {
 
 //========================================================================================================================================================
 
+.we-numbers {
+	padding-bottom: 0;
+	background: #1f1f1f;
+}
 
+.we-numbers__title {
+	margin-bottom: 45px;
+}
+
+.we-numbers__inner {
+	justify-content: space-around;
+	margin-bottom: 55px;
+}
+
+.we-numbers__column {
+	padding: 0 25px;
+}
+
+.we-numbers__card {
+	color: #fff;
+	text-align: center;
+}
+
+.we-numbers__card-title {
+	font-size: 3.25em;
+	line-height: 1;
+}
+
+.we-numbers__card-subtitle {
+	font-size: 1.2rem;
+	letter-spacing: .125em;
+	line-height: 1.5;
+	text-transform: uppercase;
+}
+
+.we-numbers__link-block {
+	display: block;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	font-size: 26px;
+	padding: 30px 15px;
+	background: #CC870B;
+}
+
+//========================================================================================================================================================
 
 //</ОСНОВНОЙ БЛОК>====================================================================================================
 
