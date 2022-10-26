@@ -1026,6 +1026,82 @@ h6 {
 
 //========================================================================================================================================================
 
+.advant {
+	position: relative;
+	background: #00b4f1;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url('../img/advant.jpg');
+}
+
+.advant ._container {
+	position: relative;
+	z-index: 5;
+}
+
+.advant__nuar_blk {
+	background-color: rgba(0, 0, 0, 0.6)
+}
+
+.advant__title {
+	color: #fff;
+	margin-bottom: 45px;
+}
+
+.stages__list {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-right: 65px;
+	color: #fff;
+
+	&:last-child {
+		margin-right: 0;
+	}
+}
+
+.stages__list-item {
+	display: flex;
+	flex: 0 1 33.333%;
+	font-size: 18px;
+	line-height: 22px;
+	margin-bottom: 25px;
+
+	&::before {
+		content: '';
+		float: left;
+		flex: 0 0 28px;
+		height: 28px;
+		margin-right: 8px;
+		background-position: 0 0;
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-image: url(../img/jackdaw.svg);
+	}
+}
+
+// .stages__list-item-span {
+// 	display: flex;
+// 	font-size: 28px;
+// 	color: #00b4f1;
+// 	font-weight: 700;
+// 	margin-right: 13px;
+
+// &::before {
+// 	content: '';
+// 	float: left;
+// 	flex: 0 0 25px;
+// 	height: 25px;
+// 	background-position: 0 0;
+// 	background-repeat: no-repeat;
+// 	background-size: 100%;
+// 	background-image: url(../img/jackdaw.svg);
+// }
+// }
+
+//========================================================================================================================================================
+
 //</ОСНОВНОЙ БЛОК>====================================================================================================
 
 //<Адаптив>===========================================================================================================================================
