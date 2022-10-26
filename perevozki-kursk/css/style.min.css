@@ -3815,7 +3815,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .services__card-descp-text-price {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
   margin-top: 10px;
 }
@@ -4023,12 +4023,52 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .consultation__form-input {
   flex: 0 1 48%;
+  color: #fff;
+  background: transparent;
   margin-bottom: 15px;
+}
+
+.consultation__form-input::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.consultation__form-input::-moz-placeholder {
+  color: #fff;
+}
+
+/* Firefox 19+ */
+.consultation__form-input:-moz-placeholder {
+  color: #fff;
+}
+
+/* Firefox 18- */
+.consultation__form-input:-ms-input-placeholder {
+  color: #fff;
 }
 
 .consultation__form-textarea {
   flex: 0 1 48%;
+  color: #fff;
+  background: transparent;
   height: 100px;
+}
+
+.consultation__form-textarea::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.consultation__form-textarea::-moz-placeholder {
+  color: #fff;
+}
+
+/* Firefox 19+ */
+.consultation__form-textarea:-moz-placeholder {
+  color: #fff;
+}
+
+/* Firefox 18- */
+.consultation__form-textarea:-ms-input-placeholder {
+  color: #fff;
 }
 
 .consultation__form-btn {

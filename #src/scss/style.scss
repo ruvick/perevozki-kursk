@@ -557,7 +557,7 @@ h6 {
 }
 
 .services__card-descp-text-price {
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: 700;
 	// color: #00b4f1;
 	margin-top: 10px;
@@ -795,12 +795,54 @@ h6 {
 
 .consultation__form-input {
 	flex: 0 1 48%;
+	color: #fff;
+	background: transparent;
 	margin-bottom: 15px;
+}
+
+// Стилизация placeholder 
+.consultation__form-input::-webkit-input-placeholder {
+	color: #fff;
+}
+
+.consultation__form-input::-moz-placeholder {
+	color: #fff;
+}
+
+/* Firefox 19+ */
+.consultation__form-input:-moz-placeholder {
+	color: #fff;
+}
+
+/* Firefox 18- */
+.consultation__form-input:-ms-input-placeholder {
+	color: #fff;
 }
 
 .consultation__form-textarea {
 	flex: 0 1 48%;
+	color: #fff;
+	background: transparent;
 	height: 100px;
+}
+
+// Стилизация placeholder 
+.consultation__form-textarea::-webkit-input-placeholder {
+	color: #fff;
+}
+
+.consultation__form-textarea::-moz-placeholder {
+	color: #fff;
+}
+
+/* Firefox 19+ */
+.consultation__form-textarea:-moz-placeholder {
+	color: #fff;
+}
+
+/* Firefox 18- */
+.consultation__form-textarea:-ms-input-placeholder {
+	color: #fff;
 }
 
 .consultation__form-btn {
