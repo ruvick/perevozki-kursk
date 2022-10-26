@@ -1,9 +1,12 @@
 .header {
-	position: absolute;
+	position: fixed;
 	width: 100%;
 	z-index: 50000;
 	padding: 26.5px 0;
 	background: transparent;
+
+	padding: 6px 0;
+	background: #00b4f1;
 
 	&__row {
 		align-items: center;
@@ -47,8 +50,8 @@
 }
 
 .header__logo {
-	flex: 0 0 130px;
-	height: 60px;
+	flex: 0 0 115px;
+	height: 55px;
 	margin-right: 30px;
 }
 

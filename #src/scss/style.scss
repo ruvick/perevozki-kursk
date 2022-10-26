@@ -142,15 +142,16 @@ h1 {
 
 h2 {
 	font-family: 'Ceremonioustwo', sans-serif;
-	font-size: 60px;
+	font-size: 53px;
 	font-weight: 300;
 	line-height: 72 / 60 *100%;
 
 	span {
 		font-family: 'Lato', sans-serif;
-		font-size: 20px;
+		font-size: 18px;
 		font-weight: 500;
 		color: #1A1818;
+		color: #00b4f1;
 		margin-top: -25px;
 		display: block;
 	}
@@ -192,7 +193,7 @@ h6 {
 
 .title {
 	text-align: center;
-	color: #CC870B;
+	// color: #CC870B;
 	margin-bottom: 20px;
 }
 
@@ -319,9 +320,14 @@ h6 {
 	}
 
 	&__title {
+		color: #fff;
 		font-size: 63px;
 		margin-bottom: 20px;
 	}
+}
+
+.slider-bg__slide-nuar_blk {
+	background-color: #00000065;
 }
 
 .slider-bg__subtitle {
@@ -358,7 +364,11 @@ h6 {
 }
 
 .slider-main__slide-2 {
-	background: url('../img/main-bg-02.png');
+	background: url('../img/main-bg-03.jpg');
+}
+
+.slider-main__slide-3 {
+	background: url('../img/main-bg-02.jpg');
 }
 
 .product-sl-paggination {
@@ -420,26 +430,26 @@ h6 {
 }
 
 .card-objects__img-nuar_blk {
-	background-color: #00000055;
+	background-color: #00000035;
 }
 
 .card-objects__descp {
 	flex: 1 1 auto;
 	padding: 20px 13px;
-	background: #888E91;
+	background: #00b4f1;
 	transition: all 1.5s;
 }
 
-.card-objects:hover .card-objects__descp {
-	background: #B58439;
-	transition: all 0.6s;
-}
+// .card-objects:hover .card-objects__descp {
+// 	background: #B58439;
+// 	transition: all 0.6s;
+// }
 
 .card-objects__descp-title {
 	font-family: 'Ceremonioustwo', sans-serif;
-	font-size: 22px;
+	font-size: 20px;
 	text-align: center;
-	color: #FFDDA8;
+	color: #fff;
 
 	span {
 		color: #fff;
@@ -462,16 +472,20 @@ h6 {
 	background-image: url('../img/banner-01.jpg');
 }
 
+.banner__nuar_blk {
+	background-color: #00000065;
+}
+
 .banner__title {
 	position: relative;
 	z-index: 5;
-	font-size: 98.32px;
+	font-size: 60px;
 	font-weight: 300;
 	line-height: 117.98 / 98.32 *100%;
 	color: #fff;
 
 	span {
-		font-size: 70px;
+		font-size: 50px;
 		line-height: 84 / 70 *100%;
 		color: #fff;
 		margin-top: -15px;
@@ -494,7 +508,7 @@ h6 {
 }
 
 .services__wrap {
-	padding: 45px 0;
+	padding: 65px 0 35px 0;
 	background: #EDEEEF;
 }
 
@@ -519,9 +533,12 @@ h6 {
 	flex-direction: column;
 	// flex-direction: column-reverse;
 	overflow: hidden;
+	border: 2px solid #00b4f1;
+	padding-bottom: 25px;
 }
 
 .services__card-descp {
+	flex: 1 1 auto;
 	padding: 0 35px;
 	text-align: center;
 	margin-top: 15px;
@@ -531,12 +548,19 @@ h6 {
 .services__card-descp-name {}
 
 .services__card-descp-name-line {
-	margin: 17px auto 17px auto;
+	margin: 13px auto 13px auto;
 }
 
 .services__card-descp-text {
 	font-weight: 500;
 	line-height: 16.8px;
+}
+
+.services__card-descp-text-price {
+	font-size: 18px;
+	font-weight: 700;
+	// color: #00b4f1;
+	margin-top: 10px;
 }
 
 .services__card-slider {
@@ -749,6 +773,7 @@ h6 {
 .consultation__title {
 	position: relative;
 	z-index: 5;
+	color: #fff;
 
 	span {
 		font-size: 26px;
@@ -913,9 +938,11 @@ h6 {
 .we-numbers {
 	padding-bottom: 0;
 	background: #1f1f1f;
+	border-top: 3px solid #00b4f1;
 }
 
 .we-numbers__title {
+	color: #fff;
 	margin-bottom: 45px;
 }
 
@@ -952,7 +979,7 @@ h6 {
 	color: #fff;
 	font-size: 26px;
 	padding: 30px 15px;
-	background: #CC870B;
+	background: #00b4f1;
 }
 
 //========================================================================================================================================================

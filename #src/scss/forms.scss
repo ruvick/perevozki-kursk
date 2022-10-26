@@ -33,6 +33,9 @@
 	background: #cc870b;
 	border: 0.5px solid #cc870b;
 
+	border: 1px solid #fff;
+	background: #00b4f1;
+
 	&:hover {}
 
 	&.fw {
@@ -41,9 +44,9 @@
 }
 
 .btn_white {
-	color: #CC870B;
+	color: #00b4f1;
 	background: #fff;
-	border: 1px solid #cc870b;
+	border: 1px solid #00b4f1;
 }
 
 .button {
@@ -269,11 +272,11 @@ textarea {
 	width: 100%;
 	height: 45px;
 	font-size: 20px;
-	color: #b58439;
+	color: #00b4f1;
 	padding: 15px;
 	border-radius: 5px;
 	background: #fff;
-	border: 0.5px solid #cc870b;
+	border: 0.5px solid #00b4f1;
 
 	&._focus {
 		background: grey;
@@ -301,21 +304,21 @@ textarea.input {
 
 // Стилизация placeholder 
 ::-webkit-input-placeholder {
-	color: #b58439;
+	color: #000;
 }
 
 ::-moz-placeholder {
-	color: #b58439;
+	color: #000;
 }
 
 /* Firefox 19+ */
 :-moz-placeholder {
-	color: #b58439;
+	color: #000;
 }
 
 /* Firefox 18- */
 :-ms-input-placeholder {
-	color: #b58439;
+	color: #000;
 }
 
 // Убираем стрелки у цифрового инпута
